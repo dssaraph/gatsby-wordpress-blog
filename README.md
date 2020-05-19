@@ -7,9 +7,7 @@ This is my first attempt at learning Gatsby.js. I'm using an existing WordPress 
 
 To get started, follow the official tutorial at [Gatsby.js Tutorials](https://www.gatsbyjs.org/tutorial)
 
-Once you have the development environment setup, 
-
-To start with this code, edit the `gatsby-config.js` file:
+Once you have the development environment setup, clone this repo and edit the file `gatsby-config.js`:
 ```javascript
 module.exports = {
   siteMetadata: {
@@ -43,6 +41,6 @@ If you are running a basic WordPress blog, the above edit should be sufficient.
 
 Run `npm install` from the Gatsby root directory and once all node modules are installed, run `gatsby develop`
 
-You should be able to visit your Gatsby.js static blog at [localhost:8000](http://localhost:8000)
+You should be able to visit your Gatsby.js static blog at `http://localhost:8000`
 
 Cheers!
