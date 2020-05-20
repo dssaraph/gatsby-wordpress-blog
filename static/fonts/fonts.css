@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: 
+    url("sf-pro-display-regular.eot") format("embedded-opentype"), /* IE6-IE8 */
+    url("sf-pro-display-regular.woff2") format("woff2"), /* chrome、firefox */
+    url("sf-pro-display-regular.woff") format("woff"), /* chrome、firefox */
+    url("sf-pro-display-regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("sf-pro-display-regular.svg") format("svg"); /* iOS 4.1- */
+  }
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("sf-pro-text-regular.eot") format("embedded-opentype"), /* IE6-IE8 */
+    url("sf-pro-text-regular.woff2") format("woff2"), /* chrome、firefox */
+    url("sf-pro-text-regular.woff") format("woff"), /* chrome、firefox */
+    url("sf-pro-text-regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("sf-pro-text-regular.svg") format("svg"); /* iOS 4.1- */
+}

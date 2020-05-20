@@ -1,5 +1,29 @@
+button.react-share__ShareButton {
+  margin-right: 10px;
+  fill: none;
+}
+
+.hrDiv {
+  border-top: 1px solid #d2d2d7;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.postTitle {
+  letter-spacing: -.003em;
+  font-size: 48px;
+}
+
+.postDate {
+  color: #86868b;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  font-family: "SF Pro Text","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
 html {
-  font-family: sans-serif;
+  font-family: "SF Pro Text","Helvetica Neue","Helvetica","Arial",sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -42,6 +66,7 @@ template {
   display: none;
 }
 a {
+  font-family: "SF Pro Text","Helvetica Neue","Helvetica","Arial",sans-serif;
   color: #292929;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -111,7 +136,11 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  border-top: 1px solid #d2d2d7;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
+
 button,
 input,
 optgroup,
@@ -211,6 +240,7 @@ body {
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
+  font-family: "SF Pro Text","Helvetica Neue","Helvetica","Arial",sans-serif;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -237,8 +267,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -254,8 +283,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -271,8 +299,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -288,8 +315,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -305,8 +331,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -322,8 +347,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -384,6 +408,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
+  font-family: "SF Pro Text","Helvetica Neue","Helvetica","Arial",sans-serif;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;

@@ -13,6 +13,15 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["SF Pro Display", "SF Pro Text"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
+    {
       resolve: `gatsby-source-wordpress`,
       options: {
         baseUrl: `apoorvabhide.com`,

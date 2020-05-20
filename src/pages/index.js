@@ -59,24 +59,3 @@ export const pageQuery = graphql`
   }
 `
 
-      {/* <Navbar className="justify-content-center">
-        <Navbar.Brand href="/">
-          <img
-            src="./logo.svg"
-            width="40"
-            height="40"
-            className="d-inline-block align-top"
-            alt="React Bootstrap logo"
-          />
-        </Navbar.Brand>
-        {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav>
-          {data.allWordpressPage.edges.map(({ node }) => (
-            <div key={node.slug}>
-              <Nav.Link href={node.slug}><h3>{node.title}</h3></Nav.Link>
-            </div>
-          ))}
-        </Nav>
-        </Navbar.Collapse>
-      </Navbar> */}
