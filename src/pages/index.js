@@ -18,7 +18,7 @@ class Homepage extends Component {
               <h3 dangerouslySetInnerHTML={{__html: node.title}}/>
             </Link>
             <p dangerouslySetInnerHTML={{__html: node.excerpt}}/>
-            <p dangerouslySetInnerHTML={{__html: node.date}}/>
+            <p className="postDate" dangerouslySetInnerHTML={{__html: node.date}}/>
           </div>
         ))}
       {/* </Container> */}

@@ -7,7 +7,6 @@ const Header = ({ siteTitle }) => (
     style={{
       // background: `rebeccapurple`,
       marginBottom: `1.45rem`,
-      fontSize: 21
     }}
   >
     <div
@@ -17,7 +16,10 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{
+        margin: 0,
+        fontSize: 36
+      }}>
         <Link
           to="/"
           style={{

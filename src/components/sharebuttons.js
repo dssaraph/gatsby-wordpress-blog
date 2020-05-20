@@ -14,19 +14,19 @@ import {
 export const ShareButtons = ({ twitterHandle, url, title, tags }) => (
   <div>
     <FacebookShareButton url={url}>
-      <FacebookIcon size={32} round={true} iconFillColor={"#86868b"}/>
+      <FacebookIcon size={32} round={true}/>
     </FacebookShareButton>
 
     <TwitterShareButton url={url} title={title} via={twitterHandle} hashtags={tags}>
-      <TwitterIcon size={32} round={true} iconFillColor={"#86868b"}/>
+      <TwitterIcon size={32} round={true}/>
     </TwitterShareButton>
 
     <RedditShareButton url={url} title={title}>
-      <RedditIcon size={32} round={true} iconFillColor={"#86868b"}/>
+      <RedditIcon size={32} round={true}/>
     </RedditShareButton>
 
     <WhatsappShareButton url={url} title={title}>
-      <WhatsappIcon size={32} round={true} iconFillColor={"#86868b"}/>
+      <WhatsappIcon size={32} round={true}/>
     </WhatsappShareButton>
   </div>
 )
