@@ -1,6 +1,5 @@
 button.react-share__ShareButton {
   margin-right: 10px;
-  fill: none;
 }
 
 .hrDiv {
@@ -9,7 +8,6 @@ button.react-share__ShareButton {
   margin-bottom: 40px;
 }
 .postTitle {
-  letter-spacing: -.003em;
   font-size: 48px;
 }
 
@@ -18,7 +16,6 @@ button.react-share__ShareButton {
   font-size: 12px;
   line-height: 1.33337;
   font-weight: 600;
-  letter-spacing: -.01em;
   font-family: "SF Pro Text","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
