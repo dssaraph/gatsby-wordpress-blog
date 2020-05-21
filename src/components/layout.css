@@ -9,6 +9,7 @@ button.react-share__ShareButton {
 }
 .postTitle {
   font-size: 48px;
+  letter-spacing: 0.02em;
 }
 
 .postDate {
@@ -294,13 +295,14 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1.25rem;
   color: inherit;
   font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
+  letter-spacing: 0.025em;
 }
 h4 {
   margin-left: 0;
