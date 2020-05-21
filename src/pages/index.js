@@ -13,12 +13,14 @@ class Homepage extends Component {
       <Layout>
       <SEO title="Home"/>
         {data.allWordpressPost.edges.map(({ node }) => (
-          <div key={node.slug}>
+          <div className="postCards" key={node.slug}>
+            <div className="cardContainer">
             <Link to={node.slug}>
               <h3 dangerouslySetInnerHTML={{__html: node.title}}/>
+              <p className="postExcerpt"  dangerouslySetInnerHTML={{__html: node.excerpt}}/>
+              <p className="postDate" dangerouslySetInnerHTML={{__html: node.date}}/>
             </Link>
-            <p dangerouslySetInnerHTML={{__html: node.excerpt}}/>
-            <p className="postDate" dangerouslySetInnerHTML={{__html: node.date}}/>
+            </div>
           </div>
         ))}
       {/* </Container> */}

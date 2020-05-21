@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
     >
       <h1 style={{
         margin: 0,
-        fontSize: 36
+        fontSize: 24
       }}>
         <Link
           to="/"

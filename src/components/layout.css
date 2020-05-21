@@ -1,3 +1,27 @@
+.postExcerpt {
+  font-size: 0.75em;
+}
+
+.postCards {
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.2s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-top: 0.75em;
+}
+
+.postCards:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cardContainer {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  padding: 0.125em 1em;
+}
+
 button.react-share__ShareButton {
   margin-right: 10px;
 }
@@ -29,6 +53,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(245, 245, 247);
 }
 article,
 aside,
