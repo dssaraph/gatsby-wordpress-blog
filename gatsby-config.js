@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Apoorva Bhide`,
-    description: `Sourcing data from WordPress`,
+    description: `Sourcing data from WordPress.`,
     menuLinks:[
       {
         name:'home',
@@ -27,7 +27,7 @@ module.exports = {
         baseUrl: `apoorvabhide.com`,
         protocol: `https`,
         hostingWPCOM: false,
-        useACF: true,
+        useACF: false,
         searchAndReplaceContentUrls: {
           sourceUrl: "http://apoorvabhide.com",
           replacementUrl: "https://apoorvabhide.com",
@@ -50,7 +50,6 @@ module.exports = {
           "/wordfence/**",
           "/settings**",
           "/themes**",
-          "/acf**",
         ],
       },
     },
