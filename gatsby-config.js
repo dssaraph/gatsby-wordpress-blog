@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Apoorva Bhide`,
-    description: `Sourcing data from WordPress.`,
+    description: `Designer, hacker, investor, nomad. Never satisfied. Deeply flawed.`,
     menuLinks:[
       {
         name:'home',

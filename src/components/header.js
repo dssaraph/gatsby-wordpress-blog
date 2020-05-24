@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
     >
       <h1 className="siteHeader" style={{
         margin: 0,
-        fontSize: 24
+        fontSize: `1rem`
       }}>
         <Link
           to="/"
@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {siteTitle.toUpperCase()}
         </Link>
       </h1>
     </div>

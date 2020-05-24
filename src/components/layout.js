@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <div className="articleSplit"></div>
-        <footer className="homePosts">
+        <footer className="homeFooter">
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>

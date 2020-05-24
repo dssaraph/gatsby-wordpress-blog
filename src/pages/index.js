@@ -2,8 +2,7 @@ import React, { Component } from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Button from 'react-bootstrap/Button'
-
+import { FaFacebookSquare, FaQuora, FaEnvelope } from 'react-icons/fa';
 
 class Homepage extends Component {
   render() {
@@ -20,11 +19,19 @@ class Homepage extends Component {
       <Link to="/">
         <h3 dangerouslySetInnerHTML={{__html: data.site.siteMetadata.title.toUpperCase()}} />
       </Link>
-      <p dangerouslySetInnerHTML={{__html: data.site.siteMetadata.description}} />
+      <p className="siteDescription" dangerouslySetInnerHTML={{__html: data.site.siteMetadata.description}} />
       <div className="socialButtons">
-        <Button className="social" href="https://www.facebook.com/apoorv.bhide.3">facebook</Button>
-        <Button className="social" href="https://www.quora.com/profile/Apoorva-Bhide">quora</Button>
-        <Button className="social" href="mailto:abc@domain.com">say hi</Button>
+        <ul className="socialLinks">
+          <li>
+            <a className="social" href="https://www.quora.com/profile/Apoorva-Bhide"><FaQuora /> quora</a>
+          </li>
+          <li>
+            <a className="social" href="https://www.facebook.com/apoorv.bhide.3"><FaFacebookSquare /> facebook</a>
+          </li>
+          <li>
+            <a className="social" href="mailto:email@domain.com"><FaEnvelope /> say hi</a>
+          </li>
+        </ul>
       </div>
       </div>
         {data.allWordpressPost.edges.map(({ node }) => (
@@ -37,7 +44,7 @@ class Homepage extends Component {
             <Link to={node.slug}>
               <button className="continueReading">Continue reading</button>
             </Link>
-            <hr className="articleSplit" />
+            <hr className="articleSplit"/>
           </div>
         ))}
       {/* </Container> */}
