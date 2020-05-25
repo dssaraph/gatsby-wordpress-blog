@@ -23,14 +23,14 @@ class Homepage extends Component {
       <div className="socialButtons">
         <ul className="socialLinks">
           <li>
-            <a className="social" href="https://www.quora.com/profile/Apoorva-Bhide"><FaQuora /> quora</a>
+            <a href="https://www.quora.com/profile/Apoorva-Bhide"><FaQuora className="faSocial"/></a>
           </li>
           <li>
-            <a className="social" href="https://www.facebook.com/apoorv.bhide.3"><FaFacebookSquare /> facebook</a>
+            <a href="https://www.facebook.com/apoorv.bhide.3"><FaFacebookSquare className="faSocial"/></a>
           </li>
           <li>
-            <a className="social" href="mailto:email@domain.com"><FaEnvelope /> say hi</a>
-          </li>
+          <a href="mailto:email@domain.com"><FaEnvelope className="faSocial"/></a>
+          </li> 
         </ul>
       </div>
       </div>
