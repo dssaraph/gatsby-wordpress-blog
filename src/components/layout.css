@@ -1,3 +1,7 @@
+.hideThis {
+  display: none;
+}
+
 .socialButtons {
   margin-top: 2rem;
   margin-bottom: 3rem;

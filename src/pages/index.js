@@ -40,6 +40,7 @@ class Homepage extends Component {
               <h6 className="homePostDate" dangerouslySetInnerHTML={{__html: node.date}}/>
               <h3 className="homePostTitle" dangerouslySetInnerHTML={{__html: node.title}}/>
               <p className="postExcerpt"  dangerouslySetInnerHTML={{__html: node.excerpt}}/>
+              <p className="hideThis"  dangerouslySetInnerHTML={{__html: node.id}}/>
             </Link>
             <Link to={node.slug}>
               <button className="continueReading">Continue reading</button>
@@ -71,6 +72,7 @@ export const pageQuery = graphql`
           excerpt
           slug
           date(formatString: "MMM DD, YYYY")
+          id
         }
       }
     }
