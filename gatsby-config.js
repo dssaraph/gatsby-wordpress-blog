@@ -2,12 +2,6 @@ module.exports = {
   siteMetadata: {
     title: `Apoorva Bhide`,
     description: `Designer, hacker, investor, nomad. Never satisfied. Deeply flawed.`,
-    menuLinks:[
-      {
-        name:'home',
-        link:'/'
-      },
-    ]
   },
   plugins: [
     "gatsby-transformer-sharp",
@@ -19,6 +13,12 @@ module.exports = {
           families: ["SF Pro Display", "SF Pro Text"],
           urls: ["/fonts/fonts.css"],
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/favicon.png`,
       },
     },
     {

@@ -48,7 +48,6 @@ class Homepage extends Component {
             <hr className="articleSplit"/>
           </div>
         ))}
-      {/* </Container> */}
       </Layout>
       </>
     )
