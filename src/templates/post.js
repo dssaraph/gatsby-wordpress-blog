@@ -20,6 +20,7 @@ class Post extends Component {
         <h6 className="postDate" dangerouslySetInnerHTML={{__html: post.date}}/>
         <h1 className="postTitle" dangerouslySetInnerHTML={{__html: post.title}}/>
         <div className="postContent" dangerouslySetInnerHTML={{__html: post.content}}/>
+        <hr className="articleSplit"/>
       </div>
       </Layout>
       </>
